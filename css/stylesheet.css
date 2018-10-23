@@ -1,0 +1,60 @@
+#html
+{
+    height: 100%;
+}
+
+#content
+{
+    text-align: center;
+    padding-top: 15%;
+}
+
+.nav a
+{
+    font-size: 1.5em !important;
+    margin-left: 20px;
+}
+
+#landingPageContainer
+{
+    height: 1000px;
+}
+
+#homeBackgroundImage
+{
+    background: url(/img/landing_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#mainTitle 
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.9em; !important;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #fff;
+}
+
+#welcomeHeader 
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.2em; !important;
+    text-shadow: 2px 2px #fff;
+}
+
+#galleryPageContainer
+{
+    border-top: 5px solid black;
+    height: 200px;
+    background-color: #696969;
+}
+
+#galleryTitle
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.5em; !important;
+    color: white;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    padding-top: 30px;
+}

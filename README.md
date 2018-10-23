@@ -1,6 +1,6 @@
 # Joanne McGowan Art Website 
 
-This is a static website which is used for displaying and selling artowrk. 
+This is a static website which is used for displaying and selling artwork for github user jmcgowanart, email jmcgowan1@hotmail.co.uk. 
 
 It is comprised of an index.html, as well as css, js and img folders. Bootstrap has been added to the project and that resides in the css and js folders. 
 

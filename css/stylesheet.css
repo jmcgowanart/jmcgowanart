@@ -63,6 +63,15 @@ body
     padding-top: 30px;
 }
 
+.galleryText
+{
+    color: aliceblue;
+    align-content: center;
+    font-size: 1.4em;
+    text-align: center;
+    text-shadow: 1px 1px #000;
+}
+
 .imageTitle
 {
     font-family: 'Playfair Display', serif;
@@ -72,4 +81,10 @@ body
 .imageCaption
 {
     font-size: 1.1em;
+}
+
+#pageFooter
+{
+    height: 400px;
+    background-color: black;
 }

@@ -101,7 +101,7 @@ body
     color: white;
     text-shadow: 2px 2px #000;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 #footerThankyouMessage
@@ -118,7 +118,8 @@ body
     color: #fff;
     font-size: 3.5em;
     margin-top: 50px;
-    padding-left: 25px;
+    padding-top: 30px;
+    padding-left: 50px;
     padding-right: 20px;
 }
 
@@ -128,7 +129,8 @@ body
     color: #fff;
     font-size: 1.8em;
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 230px;
+    padding-left: 20px;
 }
 
 #backToTopArrow
@@ -137,6 +139,7 @@ body
     font-size: 2.4em;
     margin-top: 60px;
     padding-left: 25px;
+    padding-top: 40px;
 }
 
 #footerClosingNote

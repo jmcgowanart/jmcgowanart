@@ -14,6 +14,13 @@ body
     padding-top: 15%;
 }
 
+#navBrand
+{
+    font-family: 'Kaushan Script', cursive;  
+    font-size: 1.4em !important;
+    padding-right: 20px;
+}
+
 .nav a
 {
     font-size: 1.6em !important;
@@ -43,20 +50,24 @@ body
 #welcomeHeader 
 {
     font-family: 'Kaushan Script', cursive;
-    font-size: 2.2em !important;
+    font-size: 2.4em !important;
     text-shadow: 2px 2px #fff;
+}
+
+#gallery
+{
+    padding-top: 25px;
 }
 
 #galleryPageContainer
 {
     border-top: 5px solid black;
-    height: 200px;
 }
 
 #galleryTitle
 {
     font-family: 'Kaushan Script', cursive;
-    font-size: 3.5em !important;
+    font-size: 3.8em !important;
     color: white;
     text-shadow: 2px 2px #000;
     text-align: center;
@@ -67,9 +78,9 @@ body
 {
     color: aliceblue;
     align-content: center;
-    font-size: 1.4em;
+    font-size: 1.5em;
     text-align: center;
-    text-shadow: 1px 1px #000;
+    text-shadow: 2px 2px #000;
 }
 
 .imageTitle
@@ -83,8 +94,57 @@ body
     font-size: 1.1em;
 }
 
-#pageFooter
+#footerThankyouTitle
 {
-    height: 400px;
-    background-color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6em !important;
+    color: white;
+    text-shadow: 2px 2px #000;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#footerThankyouMessage
+{
+    color: rgba(255, 255, 255, 0.842);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    font-size: 1.1em !important;
+}
+
+#footerInstagramLink
+{
+    color: #fff;
+    font-size: 3.5em;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+#footerInstagramText
+{
+    font-family: 'Kaushan Script', cursive;
+    color: #fff;
+    font-size: 1.8em;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+#backToTopArrow
+{
+    color: #fff;
+    font-size: 2.4em;
+    margin-top: 60px;
+    padding-left: 25px;
+}
+
+#footerClosingNote
+{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    color: whitesmoke;
+    font-size: 1.1em;
+    text-shadow: 1px 1px #000;
 }

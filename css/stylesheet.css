@@ -94,33 +94,48 @@ body
     font-size: 1.1em;
 }
 
+#footerContainer
+{
+    background-color:black; 
+    border-top: 10px solid white; 
+    margin-top:50px;
+}
+
+#footerThankyou
+{
+    border-right: 3px solid grey;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+}
+
 #footerThankyouTitle
 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.6em !important;
+    font-size: 1.8em !important;
     color: white;
     text-shadow: 2px 2px #000;
-    text-align: center;
-    padding-top: 50px;
 }
 
 #footerThankyouMessage
 {
     color: rgba(255, 255, 255, 0.842);
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 50px;
     font-size: 1.1em !important;
+}
+
+#footerInstagram
+{
+    border-right: 3px solid grey;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 #footerInstagramLink
 {
     color: #fff;
     font-size: 3.5em;
-    margin-top: 50px;
-    padding-top: 30px;
-    padding-left: 50px;
-    padding-right: 20px;
 }
 
 #footerInstagramText
@@ -128,26 +143,68 @@ body
     font-family: 'Kaushan Script', cursive;
     color: #fff;
     font-size: 1.8em;
-    padding-top: 10px;
-    padding-bottom: 230px;
-    padding-left: 20px;
 }
 
-#backToTopArrow
+#backToTopSection
+{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#backToTopText
 {
     color: #fff;
-    font-size: 2.4em;
-    margin-top: 60px;
-    padding-left: 25px;
-    padding-top: 40px;
+    font-size: 1.8em;
+}
+
+#arrowText
+{
+   color: #fff;
+   font-size: 2.4em; 
 }
 
 #footerClosingNote
 {
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 10px;
     color: whitesmoke;
     font-size: 1.1em;
     text-shadow: 1px 1px #000;
+    border-top: 3px solid white;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+/* The 'is-flex' css class 
+   is for making sure all columns are the same height...
+   see the footer for example */
+.row.is-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.row.is-flex > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+.row.is-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.row.is-flex > [class*='col-'] {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
 }

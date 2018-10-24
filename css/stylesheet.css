@@ -43,6 +43,7 @@ body
 {
     font-family: 'Kaushan Script', cursive;
     font-size: 3.9em !important;
+    padding-top: 80px;
     padding-bottom: 20px;
     text-shadow: 2px 2px #fff;
 }
@@ -83,6 +84,13 @@ body
     text-shadow: 2px 2px #000;
 }
 
+.galleryImage
+{
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
 .imageTitle
 {
     font-family: 'Playfair Display', serif;
@@ -91,7 +99,9 @@ body
 
 .imageCaption
 {
-    font-size: 1.1em;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #footerContainer

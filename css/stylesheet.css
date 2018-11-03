@@ -116,6 +116,11 @@ body
     padding-bottom: 10px;
 }
 
+.artworkSize
+{
+    padding-bottom: 20px;
+}
+
 #footerContainer
 {
     background-color:black; 

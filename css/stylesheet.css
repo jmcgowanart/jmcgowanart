@@ -114,11 +114,13 @@ body
     font-size: 1.3em;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .artworkSize
 {
     padding-bottom: 20px;
+    padding-left: 10px;
 }
 
 #footerContainer

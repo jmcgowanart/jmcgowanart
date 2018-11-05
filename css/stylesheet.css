@@ -106,7 +106,8 @@ body
 .imageTitle
 {
     font-family: 'Playfair Display', serif;
-    font-size: 1.7em !important;
+    font-size: 1.9em !important;
+    padding-left: 10px;
 }
 
 .imageCaption

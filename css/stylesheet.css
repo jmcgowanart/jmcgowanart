@@ -124,6 +124,34 @@ body
     padding-left: 10px;
 }
 
+#AboutTitle
+{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3.8em !important;
+    color: white;
+    text-shadow: 2px 2px #000;
+    align-content: center;
+    text-align: center;
+    display: inline;
+    margin-left: 20%;
+}
+
+#PhotoOfMe
+{
+    margin-left: 20%;
+    height: 150px;
+    border: 2px solid white;
+}
+
+.aboutText
+{
+    color: aliceblue;
+    align-content: center;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 2px 2px #000;
+}
+
 #footerContainer
 {
     background-color:black; 

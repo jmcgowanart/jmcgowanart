@@ -67,7 +67,7 @@
             <div class="row" style="padding-top: 30px;">
                 <div class="col-lg-12 galleryImage">
                     <div class="thumbnail">
-                        <img src="img/gallery/dog_walker.jpg">
+                        <img src="img/gallery/dog_walker.jpg" id="myImg" alt="As the sun goes down, Ards, Donegal">
                         <div class="caption">
                             <h4 class="imageTitle">As the sun goes down, Ards, Donegal.</h4>
                             <p class="imageCaption">Oil on board. Selling this piece for £55. Unframed.</p>
@@ -81,10 +81,17 @@
                     </div>
                 </div>
 
+                <!-- The Modal That Pops up when an image is clicked -->
+                <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                </div>
+
                 <!-- Image 2 -->
                 <div class="col-lg-12 galleryImage">
                     <div class="thumbnail">
-                        <img src="img/gallery/owls.jpg">
+                        <img src="img/gallery/owls.jpg" id="owls" alt="Wise Owls">
                         <div class="caption">
                             <h4 class="imageTitle">Wise Owls</h4>
                             <p class="imageCaption">Coloured pencil on white watercolour paper. Currently available through <a href="https://www.cowleygallery.com/">The Cowley Gallery</a>, London Street, Derry. Price: £220.</p>
@@ -271,6 +278,29 @@
 
     <!-- Bootstrap JS script -->
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    
+
+    <!-- Inline script for the modal pop-ups -->
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById('myImg');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }
+        </script>
     </body>
 </html>

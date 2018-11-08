@@ -37,6 +37,12 @@ It's as simple as that. PayPal Business Accounts is another Alternative.
 The 'is-flex' class which can be seen in the stylesheet is used to make sure that all columns are identical size... as sometimes with Bootstrap, the columns can appear at different heights and can be quite annoying to fix, especially in the footer of this project. 
 
 
+### Domain Name
+The Domain name 'joannemcgowanart.co.uk' was purchased from www.godaddy.com. 
+Various Records needed to be configured so that the domain would point correctly to the github pages website.
+Namely these 4 IP addresses needed to be configured... 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153.
+As well as that, a CNAME record needed to be created with the name 'www' and value '@'. This was to ensure users could prefix the address with 'www' also. 
+
 ### Git Command Line 
 
 In order to set up the project for use with git on the command line, I needed to run the below commands in order to change the login from my original kainos account, to the jmcgowan1 account...

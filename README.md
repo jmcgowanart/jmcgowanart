@@ -5,10 +5,10 @@ This is a static website which is used for displaying and selling artwork for Jo
 It is comprised of an index.html, contact.html, as well as css, js and img folders. It is made using Bootstrap and the relevant Bootsrap files resides in the css and js folders of the project.
 
 ---
-## Things to note...
+## Important things to note...
 
 ### formspree
-The contact page needed to be set up in a static way to take advantage of githubs free hosting service (i.e. cannot use PHP). The solution is formspree.io which allows you to send data to their URL, which then gets routed to an email address of your choice... no PHP, Javascript or sign-up required!
+The contact page needed to be set up in a static way to take advantage of githubs free hosting service (i.e. cannot use PHP or server side programming). The solution is formspree.io which allows you to send data to their URL, which then gets routed to an email address of your choice... no PHP, Javascript or sign-up required!
 
 You simply connect it to your form like so...
 
@@ -16,9 +16,25 @@ You simply connect it to your form like so...
 
 In order for this to work you need to add a 'name' attritbute to each input tag.
 
+### Online Payments with Snipcart
+Snipcart is a static web solution to taking payments from customers. Eventually snipcart was taken out of this project due to its minimum monthly fee of $10, so it didn't fit the use case... However it is useful to know. 
+
+You simply include their library at the top of your file, add the 'snipcart-add-item' class to your buy buttons and add certain attributes, like so...
+
+    <button class="snipcart-add-item btn btn-primary btn-lg"
+         data-item-id="1"
+         data-item-name="As the sun goes down, Ards, Donegal."
+         data-item-price="1.00"
+         data-item-url="/"
+         data-item-description="Oil on board. Selling this piece for £1. Unframed.">
+        Buy Artwork
+    </button>
+
+It's as simple as that. PayPal Business Accounts is another Alternative. 
+
 
 ### is-flex class
-The 'is-flex' class which can be seen in the stylesheet is used to make sure all columns are identical size... as sometimes with Bootstrap, the columns can appear at different heights and can be quite annoying to fix. 
+The 'is-flex' class which can be seen in the stylesheet is used to make sure that all columns are identical size... as sometimes with Bootstrap, the columns can appear at different heights and can be quite annoying to fix, especially in the footer of this project. 
 
 
 ### Git Command Line 

@@ -127,20 +127,31 @@ body
 #AboutTitle
 {
     font-family: 'Kaushan Script', cursive;
-    font-size: 3.8em !important;
-    color: white;
-    text-shadow: 2px 2px #000;
+    font-size: 4.2em !important;
+    color: black;
+    text-shadow: 2px 2px #fff;
     align-content: center;
     text-align: center;
     display: inline;
-    margin-left: 20%;
+    margin-left: 35%;
+}
+
+#AboutCoverSection
+{
+    padding-top:130px; 
+    padding-left:30px; 
+    padding-bottom:40px; 
+    background: url(/img/aboutPage/cover_photo.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom:5px solid black;
 }
 
 #PhotoOfMe
 {
-    margin-left: 20%;
-    height: 150px;
-    border: 2px solid white;
+    margin-left: 15%;
+    height: 170px;
+    border: 4px solid white;
 }
 
 .aboutText
@@ -150,6 +161,12 @@ body
     font-size: 1.5em;
     text-align: center;
     text-shadow: 2px 2px #000;
+}
+
+#studioImage
+{
+    margin: 0 auto 0 auto;
+    margin-top:15px
 }
 
 #footerContainer

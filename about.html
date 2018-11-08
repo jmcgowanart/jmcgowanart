@@ -36,25 +36,24 @@
     
 
     <!-- About Section -->
-
-    <div class="row" style="padding-top:40px; padding-left:30px; padding-bottom:50px; background: #C0C0C0; border-bottom:3px solid black;">
-            <h1 id="AboutTitle">About Me</h1>       
-            <img src="img/aboutPage/PhotoOfMe.jpg" class="img-circle" id="PhotoOfMe">
+    <div class="row" id="AboutCoverSection">
+        <h1 id="AboutTitle">About Me</h1>  
+        <img src="img/aboutPage/PhotoOfMe.jpg" class="img-circle" id="PhotoOfMe">
     </div>
 
         <div class="container">
         <div class="row" style="padding-top:50px; padding-left:30px; padding-bottom:50px;">
-            <div class="col-lg-7">
+            <div class="col-lg-7 col-md-7 col-sm-12">
                 <p class="aboutText">
                     Hi, my name is Joanne and I am an artist living in Derry, N.Ireland.
                     I have always loved art and have been drawing and painting for as long as I can remember.
                 </p>
                 <p class="aboutText"> 
                     I am lucky enough to work as a community occupational therapist in Donegal and as part of my work I get to drive around the most beautiful areas in Ireland. 
-                    I get much of my inspiration from this landscape. I have included some photos of stunning areas that I derive inspiration from just to the right.
+                    I get much of my inspiration from this landscape. I have included some photos of the stunning areas that I derive inspiration from also.
                 </p>
             </div>
-            <div class="col-lg-5">
+            <div class="col-lg-5 col-md-5 col-sm-12">
                     <div id="carousel" class="carousel slide" data-ride="carousel" style="border: 3px solid white;">
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel" data-slide-to="0"></li>
@@ -63,23 +62,22 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="item active">
-                                    <img src="img/aboutPage/PeaceBridge.jpg" alt="Slide 1">
+                                    <img src="img/aboutPage/PeaceBridge.jpg" class="img-responsive" alt="Slide 1">
                                     <div class="carousel-caption">
                                         <p>The Peace Bridge, Derry</p>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="img/aboutPage/InchCastleDonegal.jpg" alt="Slide 2">
+                                    <img src="img/aboutPage/InchCastleDonegal.jpg" class="img-responsive" alt="Slide 2">
                                     <div class="carousel-caption">
                                         <p>Inch Castle, Donegal</p>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="img/aboutPage/GriananFort.jpg" alt="Slide 3">
+                                    <img src="img/aboutPage/GriananFort.jpg" class="img-responsive" alt="Slide 3">
                                     <div class="carousel-caption">
-                                            <p>Grianán Fort, Inishowen</p>
-                                        </div>
-                                    
+                                        <p>Grianán Fort, Inishowen</p>
+                                    </div>
                                 </div>
                             </div>
                             <a href="#carousel" class="left carousel-control" data-slide="prev">
@@ -89,33 +87,53 @@
                                 <span class="glyphicon glyphicon-chevron-right"></span>
                             </a>
                     </div>
-            </div>
-            <div class="col-lg-12" style="padding-top:50px;">
+            </div> 
+        </div>
+
+        <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-12">
                 <p class="aboutText">
                     I love to paint in all mediums, especially oils and pastels. 
-                    Lately I have been doing a lot of wildlife drawings and paintings and I have been exploring the medium of oil based coloured pencils and find them great to use as you can get some great details in your work.
-                    I hope you enjoy looking at my artwork and feel free to <a href="contact.html">Contact Me</a> if you’re interested in purchasing anything.
+                    Lately I have been doing a lot of wildlife drawings and paintings and I have been exploring the medium of oil based coloured pencils and find them great to use as you can get some great, finer details in your work.
+                </p>
+                <p class="aboutText" style="padding-top:20px;">
+                    I do most of my painting and drawing in a small studio that I've set up in my home. You can see it in the picture here.
                 </p>
             </div>
+            <div class="col-lg-5 col-md-5 col-sm-12">
+                <img src="img/aboutPage/sampleStudio.jpg" class="thumbnail img-responsive" id="studioImage">
+                <div class="carousel-caption">
+                    <p>My Small Art Studio at Home</p>
+                </div>
+            </div>
+       </div>
+
+       <div class="row">
+        <div class="col-lg-12" style="padding-top:40px; padding-bottom: 100px;">
+            <p class="aboutText">
+                I hope you enjoyed looking at my artwork, please feel free to <a href="contact.html">Contact Me</a> if you’re interested in purchasing anything... or just for a quick chat!  
+            </p>
         </div>
+   </div>
     </div>
 
 
+    
 
     <!-- Footer -->
     <div id="footerContainer">
         <div class="container">
             <div class="row is-flex">
-                <div class="col-lg-5 col-sm-5" id="footerThankyou">
+                <div class="col-lg-5 col-md-5 col-sm-5" id="footerThankyou">
                     <h2 id="footerThankyouTitle">Thanks for visiting my website!</h2>
                     <hr style="border-top: 1px solid #D3D3D3; width: 200px;">
                     <p id="footerThankyouMessage">I hope you enjoyed browsing my gallery. The website is always being updated with new artwork, so please visit again soon.</p>
                 </div>
-                <div class="col-lg-4 col-sm-4" id="footerInstagram">
+                <div class="col-lg-4 col-md-4 col-sm-4" id="footerInstagram">
                     <a href="https://www.instagram.com/joanne_mcgowan_art/?hl=en"><i class="fab fa-instagram" id="footerInstagramLink"></i>
                     <p id="footerInstagramText">My Instagram</p></a>
                 </div>
-                <div class="col-lg-3 col-sm-3" id="backToTopSection">
+                <div class="col-lg-3 col-md-3 col-sm-3" id="backToTopSection">
                     <a href="index.html#gallery"><i class="fas fa-palette" id="arrowText"></i>
                     <p id="galleryLinkFooter">My Gallery</p></a>
                 </div>

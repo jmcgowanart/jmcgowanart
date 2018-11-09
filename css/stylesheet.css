@@ -63,8 +63,8 @@ body
 #viewGalleryBtn
 {
     font-size: 2.0em;
-    font-family: 'Kaushan Script', cursive;
-    color: royalblue;
+    /*font-family: 'Kaushan Script', cursive;*/
+    color: blue;
 }
 
 #gallery
@@ -138,7 +138,7 @@ body
 
 #AboutCoverSection
 {
-    padding-top:130px; 
+    padding-top:80px; 
     padding-left:30px; 
     padding-bottom:40px; 
     background: url(/img/aboutPage/cover_photo.jpg);
@@ -346,13 +346,13 @@ body
 
 
 /* This section controls the modal pop-ups when images are clicked */
-#myImg {
+.indexImage {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+.indexImage:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -372,8 +372,9 @@ body
 /* Modal Content (image) */
 .modal-content {
     margin: auto;
+    margin-top: 5%;
     display: block;
-    width: 45%;
+    width: 100%;
     max-width: 700px;
 }
 
@@ -410,9 +411,9 @@ body
 /* The Close Button */
 .close {
     position: absolute;
-    top: 40px;
-    right: 50px;
-    color: #f1f1f1;
+    top: 100px;
+    right: 60px;
+    color: #fff;
     font-size: 100px;
     font-weight: bold;          
     transition: 0.3s;
@@ -420,7 +421,7 @@ body
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
 }

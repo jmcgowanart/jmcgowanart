@@ -20,7 +20,7 @@ In order for this to work you need to add a 'name' attritbute to each input tag,
 ## Online Payments with Snipcart
 Snipcart is a static web solution to taking payments from customers. Eventually snipcart was taken out of this project due to its minimum monthly fee of $10, so it didn't fit the use case... However it is useful to know for future projects. 
 
-You simply include their library at the top of your file, add the 'snipcart-add-item' class to your buy buttons and add certain attributes, like so...
+You simply link their library at the top of your file, and add the 'snipcart-add-item' class to your buy buttons and add certain attributes, like so...
 
     <button class="snipcart-add-item btn btn-primary btn-lg"
          data-item-id="1"
